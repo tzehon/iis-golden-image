@@ -1,4 +1,4 @@
-Building a golden iis image with Cloud Build based on work done [here](https://cloud.google.com/community/tutorials/create-cloud-build-image-factory-using-packer)
+Building a golden iis image with Cloud Build based on work done [here].(https://cloud.google.com/community/tutorials/create-cloud-build-image-factory-using-packer)
 ## Enable the required services
 
     gcloud services enable cloudapis.googleapis.com \
