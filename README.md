@@ -58,3 +58,8 @@ Get the builder from the community repository and submit it to your project. Thi
     gcloud builds submit --config cloudbuild.yaml
     rm -rf /tmp/cloud-builders-community
     cd $project_dir
+
+## Trigger Cloud Build to build a new image with each commit
+
+1. Connect your repository to Cloud Build
+1. Create a trigger
