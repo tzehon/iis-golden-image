@@ -20,7 +20,7 @@ Add-WindowsFeature $features -Verbose
 Write-Host "Opening port 80..."
 netsh advfirewall firewall add rule name="open_80_api" dir=in localport=80 protocol=TCP action=allow
 
-Set-Content -Path C:\inetpub\wwwroot\index.html -Value '<!doctype html><html><body><h1>Hello World 20210416!</h1></body></html>'
+Set-Content -Path C:\inetpub\wwwroot\index.html -Value '<!doctype html><html><body><h1>Hello World, welcome to the weekend!</h1></body></html>'
 Get-Content -Path C:\inetpub\wwwroot\index.html
 
 choco install -y webdeploy
